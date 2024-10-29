@@ -3,8 +3,8 @@ import './App.css';
 import {useState} from 'react';
 import {Web3} from 'web3';
 
-const ADDRESS = "0x0a0dDB402D1FA017D5e0393705b05C5A747C7105";
-const ABI = [{"inputs":[{"internalType":"uint256","name":"y","type":"uint256"},{"internalType":"string","name":"x","type":"string"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"decreaseNum","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getNumber","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"increaseNum","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"message","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"string","name":"newMessage","type":"string"}],"name":"setMessage","outputs":[],"stateMutability":"nonpayable","type":"function"}]
+const ADDRESS = "0xd62A49ea8BA9c86480852FdE0cffF141B3E05b46";
+const ABI = [{"inputs":[{"internalType":"uint256","name":"y","type":"uint256"},{"internalType":"string","name":"x","type":"string"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"decreaseNum","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"getNumber","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"increaseNum","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"message","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"string","name":"newMessage","type":"string"}],"name":"setMessage","outputs":[],"stateMutability":"nonpayable","type":"function"}];
 
 function App() {
   const [number, setNumber] = useState("none");
